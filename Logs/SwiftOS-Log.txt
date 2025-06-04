@@ -1,0 +1,613 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250605064547
+Username: DESKTOP-QIQ335N\Admin
+RunAs User: DESKTOP-QIQ335N\Admin
+Configuration Name: 
+Machine: DESKTOP-QIQ335N (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 4216
+PSVersion: 5.1.26100.1882
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1882
+BuildVersion: 10.0.26100.1882
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\Logs\SwiftOS-Log.txt
+Unsupported Windows build: 26100. Requires Windows 11 21H2 or newer.
+**********************
+Windows PowerShell transcript end
+End time: 20250605064547
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20250605064733
+Username: DESKTOP-QIQ335N\Admin
+RunAs User: DESKTOP-QIQ335N\Admin
+Configuration Name: 
+Machine: DESKTOP-QIQ335N (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 4216
+PSVersion: 5.1.26100.1882
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1882
+BuildVersion: 10.0.26100.1882
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\Logs\SwiftOS-Log.txt
+C:\Users\Admin\Downloads\SwiftOS\SwiftOS_ModKit.ps1 : Unsupported Windows build: . Minimum required is 22000.
+At line:1 char:2
++  .\SwiftOS_ModKit.ps1
++  ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorException,SwiftOS_ModKit.ps1
+C:\Users\Admin\Downloads\SwiftOS\SwiftOS_ModKit.ps1 : Unsupported Windows build: . Minimum required is 22000.
+At line:1 char:2
++  .\SwiftOS_ModKit.ps1
++  ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorException,SwiftOS_ModKit.ps1
+
+**********************
+Windows PowerShell transcript start
+Start time: 20250605064858
+Username: DESKTOP-QIQ335N\Admin
+RunAs User: DESKTOP-QIQ335N\Admin
+Configuration Name: 
+Machine: DESKTOP-QIQ335N (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 1360
+PSVersion: 5.1.26100.1882
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.1882
+BuildVersion: 10.0.26100.1882
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\Logs\SwiftOS-Log.txt
+WARNING: System Protection is disabled on C:. Restore point creation skipped.
+Removing bloatware app: 1527c705-839a-4832-9118-54d4Bd6a0c89
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package 1527c705-839a-4832-9118-54d4Bd6a0c89_10.0.19640.1000_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.FilePicker_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove 1527c705-839a-4832-9118-54d4Bd6a0c89: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package 1527c705-839a-4832-9118-54d4Bd6a0c89_10.0.19640.1000_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.FilePicker_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: c5e2524a-ea46-4f67-841f-6a9465d9d515
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package c5e2524a-ea46-4f67-841f-6a9465d9d515_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.FileExplorer_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove c5e2524a-ea46-4f67-841f-6a9465d9d515: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package c5e2524a-ea46-4f67-841f-6a9465d9d515_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.FileExplorer_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: E2A4F912-2574-4A75-9BB0-0D023378592B
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package E2A4F912-2574-4A75-9BB0-0D023378592B_10.0.19640.1000_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.AppResolverUX_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove E2A4F912-2574-4A75-9BB0-0D023378592B: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package E2A4F912-2574-4A75-9BB0-0D023378592B_10.0.19640.1000_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.AppResolverUX_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.AddSuggestedFoldersToLibraryDialog_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.AddSuggestedFoldersToLibraryDialog_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.AAD.BrokerPlugin
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.AAD.BrokerPlugin: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.AccountsControl
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.AccountsControl_10.0.26100.1_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.AccountsControl_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.AccountsControl: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.AccountsControl_10.0.26100.1_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.AccountsControl_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.AsyncTextService
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.AsyncTextService_10.0.26100.1_neutral__8wekyb3d8bbwe from: C:\Windows\SystemApps\Microsoft.AsyncTextService_8wekyb3d8bbwe failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.AsyncTextService: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.AsyncTextService_10.0.26100.1_neutral__8wekyb3d8bbwe from: C:\Windows\SystemApps\Microsoft.AsyncTextService_8wekyb3d8bbwe failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.BioEnrollment
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.BioEnrollment_10.0.19587.1000_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.BioEnrollment_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.BioEnrollment: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.BioEnrollment_10.0.19587.1000_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.BioEnrollment_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.CredDialogHost
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.CredDialogHost_10.0.19595.1001_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\microsoft.creddialoghost_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.CredDialogHost: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.CredDialogHost_10.0.19595.1001_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\microsoft.creddialoghost_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.ECApp
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.ECApp_10.0.26100.1150_neutral__8wekyb3d8bbwe from: C:\Windows\SystemApps\Microsoft.ECApp_8wekyb3d8bbwe failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.ECApp: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.ECApp_10.0.26100.1150_neutral__8wekyb3d8bbwe from: C:\Windows\SystemApps\Microsoft.ECApp_8wekyb3d8bbwe failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.LockApp
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.LockApp_10.0.26100.1301_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.LockApp: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.LockApp_10.0.26100.1301_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.MicrosoftEdgeDevToolsClient
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.MicrosoftEdgeDevToolsClient_1000.25128.1000.0_neutral_neutral_8wekyb3d8bbwe from: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.MicrosoftEdgeDevToolsClient: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.MicrosoftEdgeDevToolsClient_1000.25128.1000.0_neutral_neutral_8wekyb3d8bbwe from: C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.UI.Xaml.CBS
+Removed Microsoft.UI.Xaml.CBS successfully.
+Removing bloatware app: Microsoft.Win32WebViewHost
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Win32WebViewHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Win32WebViewHost_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.Win32WebViewHost: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Win32WebViewHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Win32WebViewHost_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.Windows.Apprep.ChxApp
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.Apprep.ChxApp_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.AppRep.ChxApp_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.Windows.Apprep.ChxApp: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.Apprep.ChxApp_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.AppRep.ChxApp_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.Windows.AugLoop.CBS
+PS>TerminatingError(Remove-AppxPackage): "The package could not be installed because resources it modifies are currently in use.
+
+Error 0x80073D02: The request cannot be processed because package Microsoft.Windows.AugLoop.CBS_1.572.2254.0_x64__8wekyb3d8bbwe is in use."
+WARNING: Failed to remove Microsoft.Windows.AugLoop.CBS: The package could not be installed because resources it modifies are currently in use.
+
+Error 0x80073D02: The request cannot be processed because package Microsoft.Windows.AugLoop.CBS_1.572.2254.0_x64__8wekyb3d8bbwe is in use.
+Removing bloatware app: Microsoft.Windows.CapturePicker
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.CapturePicker_10.0.19580.1000_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.CapturePicker_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.Windows.CapturePicker: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.CapturePicker_10.0.19580.1000_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.CapturePicker_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.Windows.CloudExperienceHost
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.CloudExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.Windows.CloudExperienceHost: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.CloudExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.Windows.ContentDeliveryManager
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.ContentDeliveryManager_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.Windows.ContentDeliveryManager: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.ContentDeliveryManager_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.Windows.NarratorQuickStart
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.NarratorQuickStart_10.0.26100.1_neutral_neutral_8wekyb3d8bbwe from: C:\Windows\SystemApps\microsoft.windows.narratorquickstart_8wekyb3d8bbwe failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.Windows.NarratorQuickStart: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.NarratorQuickStart_10.0.26100.1_neutral_neutral_8wekyb3d8bbwe from: C:\Windows\SystemApps\microsoft.windows.narratorquickstart_8wekyb3d8bbwe failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.Windows.OOBENetworkCaptivePortal
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.OOBENetworkCaptivePortal_10.0.21302.1000_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.Windows.OOBENetworkCaptivePortal: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.OOBENetworkCaptivePortal_10.0.21302.1000_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.Windows.OOBENetworkConnectionFlow
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.OOBENetworkConnectionFlow_10.0.21302.1000_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.Windows.OOBENetworkConnectionFlow: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.OOBENetworkConnectionFlow_10.0.21302.1000_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.Windows.ParentalControls
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.ParentalControls_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\ParentalControls_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.Windows.ParentalControls: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.ParentalControls_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\ParentalControls_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.Windows.PeopleExperienceHost
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.PeopleExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.Windows.PeopleExperienceHost: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.PeopleExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.Windows.PinningConfirmationDialog
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.PinningConfirmationDialog_1000.25140.1001.0_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.Windows.PinningConfirmationDialog: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.PinningConfirmationDialog_1000.25140.1001.0_neutral__cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.Windows.PrintQueueActionCenter
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.PrintQueueActionCenter_1.0.2.0_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.PrintQueueActionCenter_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.Windows.PrintQueueActionCenter: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.PrintQueueActionCenter_1.0.2.0_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.PrintQueueActionCenter_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.Windows.ShellExperienceHost
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.ShellExperienceHost_10.0.26100.1882_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.Windows.ShellExperienceHost: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.ShellExperienceHost_10.0.26100.1882_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.Windows.StartMenuExperienceHost
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.StartMenuExperienceHost_10.0.26100.1882_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.Windows.StartMenuExperienceHost: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.StartMenuExperienceHost_10.0.26100.1882_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.Windows.XGpuEjectDialog
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.XGpuEjectDialog_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.Windows.XGpuEjectDialog: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.Windows.XGpuEjectDialog_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Microsoft.WindowsAppRuntime.CBS.1.6
+Removed Microsoft.WindowsAppRuntime.CBS.1.6 successfully.
+Removing bloatware app: Microsoft.WindowsAppRuntime.CBS
+Removed Microsoft.WindowsAppRuntime.CBS successfully.
+Removing bloatware app: Microsoft.XboxGameCallableUI
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.XboxGameCallableUI_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.XboxGameCallableUI_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.XboxGameCallableUI: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.XboxGameCallableUI_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Microsoft.XboxGameCallableUI_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: MicrosoftWindows.Client.AIX
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.Client.AIX_1000.26100.41.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\MicrosoftWindows.Client.AIX_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove MicrosoftWindows.Client.AIX: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.Client.AIX_1000.26100.41.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\MicrosoftWindows.Client.AIX_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: MicrosoftWindows.Client.CBS
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.Client.CBS_1000.26100.23.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove MicrosoftWindows.Client.CBS: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.Client.CBS_1000.26100.23.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: MicrosoftWindows.Client.Core
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.Client.Core_1000.26100.25.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\MicrosoftWindows.Client.Core_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove MicrosoftWindows.Client.Core: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.Client.Core_1000.26100.25.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\MicrosoftWindows.Client.Core_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: MicrosoftWindows.Client.FileExp
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.Client.FileExp_1000.26100.3.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\MicrosoftWindows.Client.FileExp_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove MicrosoftWindows.Client.FileExp: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.Client.FileExp_1000.26100.3.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\MicrosoftWindows.Client.FileExp_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: MicrosoftWindows.Client.OOBE
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.Client.OOBE_1000.26100.2.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove MicrosoftWindows.Client.OOBE: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.Client.OOBE_1000.26100.2.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: MicrosoftWindows.Client.Photon
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.Client.Photon_1000.26100.6.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\MicrosoftWindows.Client.Photon_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove MicrosoftWindows.Client.Photon: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.Client.Photon_1000.26100.6.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\MicrosoftWindows.Client.Photon_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: MicrosoftWindows.LKG.AccountsService
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.LKG.AccountsService_1000.26100.2033.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove MicrosoftWindows.LKG.AccountsService: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.LKG.AccountsService_1000.26100.2033.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: MicrosoftWindows.LKG.IrisService
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.LKG.IrisService_1000.26100.2033.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove MicrosoftWindows.LKG.IrisService: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.LKG.IrisService_1000.26100.2033.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: MicrosoftWindows.LKG.TwinSxS
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.LKG.TwinSxS_1000.26100.2033.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove MicrosoftWindows.LKG.TwinSxS: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.LKG.TwinSxS_1000.26100.2033.0_x64__cw5n1h2txyewy from: C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: MicrosoftWindows.UndockedDevKit
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.UndockedDevKit_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove MicrosoftWindows.UndockedDevKit: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package MicrosoftWindows.UndockedDevKit_10.0.26100.1_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: NcsiUwpApp
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package NcsiUwpApp_1000.25128.1000.0_neutral_neutral_8wekyb3d8bbwe from: C:\Windows\SystemApps\NcsiUwpApp_8wekyb3d8bbwe failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove NcsiUwpApp: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package NcsiUwpApp_1000.25128.1000.0_neutral_neutral_8wekyb3d8bbwe from: C:\Windows\SystemApps\NcsiUwpApp_8wekyb3d8bbwe failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Windows.CBSPreview
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Windows.CBSPreview_10.0.19580.1000_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Windows.CBSPreview_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Windows.CBSPreview: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Windows.CBSPreview_10.0.19580.1000_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Windows.CBSPreview_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: windows.immersivecontrolpanel
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package windows.immersivecontrolpanel_10.0.8.1000_neutral_neutral_cw5n1h2txyewy from: C:\Windows\ImmersiveControlPanel failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove windows.immersivecontrolpanel: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package windows.immersivecontrolpanel_10.0.8.1000_neutral_neutral_cw5n1h2txyewy from: C:\Windows\ImmersiveControlPanel failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Removing bloatware app: Windows.PrintDialog
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Windows.PrintDialog_6.2.3.0_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Windows.PrintDialog_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Windows.PrintDialog: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Windows.PrintDialog_6.2.3.0_neutral_neutral_cw5n1h2txyewy from: C:\Windows\SystemApps\Windows.PrintDialog_cw5n1h2txyewy failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Keeping app: Microsoft.MicrosoftEdge.Stable
+Removing bloatware app: Microsoft.WindowsAppRuntime.1.3
+PS>TerminatingError(Remove-AppxPackage): "Package failed updates, dependency or conflict validation.
+
+Windows cannot remove framework Microsoft.WindowsAppRuntime.1.3_3000.934.1904.0_x64__8wekyb3d8bbwe because package(s) Microsoft.ScreenSketch Microsoft.WindowsAlarms MSTeams currently depends on the framework. Removing all packages that depend on the framework automatically removes the framework."
+WARNING: Failed to remove Microsoft.WindowsAppRuntime.1.3: Package failed updates, dependency or conflict validation.
+
+Windows cannot remove framework Microsoft.WindowsAppRuntime.1.3_3000.934.1904.0_x64__8wekyb3d8bbwe because package(s) Microsoft.ScreenSketch Microsoft.WindowsAlarms MSTeams currently depends on the framework. Removing all packages that depend on the framework automatically removes the framework.
+Removing bloatware app: Microsoft.NET.Native.Runtime.2.2
+PS>TerminatingError(Remove-AppxPackage): "Package failed updates, dependency or conflict validation.
+
+Windows cannot remove framework Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x64__8wekyb3d8bbwe because package(s) Microsoft.ZuneMusic Microsoft.XboxIdentityProvider Microsoft.WindowsStore Microsoft.StorePurchaseApp Microsoft.Xbox.TCUI Microsoft.WindowsFeedbackHub Microsoft.WindowsCamera Microsoft.WindowsCalculator Microsoft.MicrosoftSolitaireCollection Microsoft.GetHelp currently depends on the framework. Removing all packages that depend on the framework automatically removes the framework."
+WARNING: Failed to remove Microsoft.NET.Native.Runtime.2.2: Package failed updates, dependency or conflict validation.
+
+Windows cannot remove framework Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x64__8wekyb3d8bbwe because package(s) Microsoft.ZuneMusic Microsoft.XboxIdentityProvider Microsoft.WindowsStore Microsoft.StorePurchaseApp Microsoft.Xbox.TCUI Microsoft.WindowsFeedbackHub Microsoft.WindowsCamera Microsoft.WindowsCalculator Microsoft.MicrosoftSolitaireCollection Microsoft.GetHelp currently depends on the framework. Removing all packages that depend on the framework automatically removes the framework.
+Removing bloatware app: Microsoft.NET.Native.Framework.2.2
+PS>TerminatingError(Remove-AppxPackage): "Package failed updates, dependency or conflict validation.
+
+Windows cannot remove framework Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x64__8wekyb3d8bbwe because package(s) Microsoft.ZuneMusic Microsoft.XboxIdentityProvider Microsoft.WindowsStore Microsoft.StorePurchaseApp Microsoft.Xbox.TCUI Microsoft.WindowsFeedbackHub Microsoft.WindowsCamera Microsoft.WindowsCalculator Microsoft.MicrosoftSolitaireCollection Microsoft.GetHelp currently depends on the framework. Removing all packages that depend on the framework automatically removes the framework."
+WARNING: Failed to remove Microsoft.NET.Native.Framework.2.2: Package failed updates, dependency or conflict validation.
+
+Windows cannot remove framework Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x64__8wekyb3d8bbwe because package(s) Microsoft.ZuneMusic Microsoft.XboxIdentityProvider Microsoft.WindowsStore Microsoft.StorePurchaseApp Microsoft.Xbox.TCUI Microsoft.WindowsFeedbackHub Microsoft.WindowsCamera Microsoft.WindowsCalculator Microsoft.MicrosoftSolitaireCollection Microsoft.GetHelp currently depends on the framework. Removing all packages that depend on the framework automatically removes the framework.
+Removing bloatware app: Microsoft.VCLibs.140.00.UWPDesktop
+PS>TerminatingError(Remove-AppxPackage): "Package failed updates, dependency or conflict validation.
+
+Windows cannot remove framework Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe because package(s) Microsoft.WindowsNotepad Microsoft.WindowsStore Microsoft.ScreenSketch Microsoft.Paint Microsoft.DesktopAppInstaller Microsoft.WindowsAlarms Microsoft.StorePurchaseApp MSTeams MicrosoftWindows.CrossDevice MicrosoftCorporationII.QuickAssist MicrosoftCorporationII.MicrosoftFamily Microsoft.YourPhone Microsoft.WindowsSoundRecorder Microsoft.WindowsFeedbackHub Microsoft.WindowsCalculator Microso"
+WARNING: Failed to remove Microsoft.VCLibs.140.00.UWPDesktop: Package failed updates, dependency or conflict validation.
+
+Windows cannot remove framework Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe because package(s) Microsoft.WindowsNotepad Microsoft.WindowsStore Microsoft.ScreenSketch Microsoft.Paint Microsoft.DesktopAppInstaller Microsoft.WindowsAlarms Microsoft.StorePurchaseApp MSTeams MicrosoftWindows.CrossDevice MicrosoftCorporationII.QuickAssist MicrosoftCorporationII.MicrosoftFamily Microsoft.YourPhone Microsoft.WindowsSoundRecorder Microsoft.WindowsFeedbackHub Microsoft.WindowsCalculator Microso
+Removing bloatware app: Microsoft.UI.Xaml.2.8
+PS>TerminatingError(Remove-AppxPackage): "Package failed updates, dependency or conflict validation.
+
+Windows cannot remove framework Microsoft.UI.Xaml.2.8_8.2310.30001.0_x64__8wekyb3d8bbwe because package(s) Microsoft.ZuneMusic Microsoft.WindowsNotepad Microsoft.WindowsStore Microsoft.WindowsTerminal Microsoft.ScreenSketch Microsoft.Paint Microsoft.DesktopAppInstaller Microsoft.StorePurchaseApp Microsoft.SecHealthUI Microsoft.WindowsFeedbackHub Microsoft.WindowsCamera Microsoft.WindowsCalculator Microsoft.Windows.Photos Microsoft.MicrosoftSolitaireCollection Microsoft.GetHelp currently depends on the frame"
+WARNING: Failed to remove Microsoft.UI.Xaml.2.8: Package failed updates, dependency or conflict validation.
+
+Windows cannot remove framework Microsoft.UI.Xaml.2.8_8.2310.30001.0_x64__8wekyb3d8bbwe because package(s) Microsoft.ZuneMusic Microsoft.WindowsNotepad Microsoft.WindowsStore Microsoft.WindowsTerminal Microsoft.ScreenSketch Microsoft.Paint Microsoft.DesktopAppInstaller Microsoft.StorePurchaseApp Microsoft.SecHealthUI Microsoft.WindowsFeedbackHub Microsoft.WindowsCamera Microsoft.WindowsCalculator Microsoft.Windows.Photos Microsoft.MicrosoftSolitaireCollection Microsoft.GetHelp currently depends on the frame
+Removing bloatware app: Microsoft.VCLibs.140.00
+PS>TerminatingError(Remove-AppxPackage): "Package failed updates, dependency or conflict validation.
+
+Windows cannot remove framework Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe because package(s) MicrosoftWindows.Client.WebExperience Microsoft.ZuneMusic Microsoft.XboxIdentityProvider Microsoft.WindowsNotepad Microsoft.WindowsStore Microsoft.ScreenSketch Microsoft.Paint Microsoft.WindowsAlarms Microsoft.StorePurchaseApp Microsoft.Todos Microsoft.SecHealthUI Microsoft.WebMediaExtensions MSTeams MicrosoftWindows.CrossDevice Microsoft.YourPhone Microsoft.XboxSpeechToTextOverlay Microsoft.XboxGaming"
+WARNING: Failed to remove Microsoft.VCLibs.140.00: Package failed updates, dependency or conflict validation.
+
+Windows cannot remove framework Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe because package(s) MicrosoftWindows.Client.WebExperience Microsoft.ZuneMusic Microsoft.XboxIdentityProvider Microsoft.WindowsNotepad Microsoft.WindowsStore Microsoft.ScreenSketch Microsoft.Paint Microsoft.WindowsAlarms Microsoft.StorePurchaseApp Microsoft.Todos Microsoft.SecHealthUI Microsoft.WebMediaExtensions MSTeams MicrosoftWindows.CrossDevice Microsoft.YourPhone Microsoft.XboxSpeechToTextOverlay Microsoft.XboxGaming
+Removing bloatware app: Clipchamp.Clipchamp
+Removed Clipchamp.Clipchamp successfully.
+Removing bloatware app: Microsoft.ApplicationCompatibilityEnhancements
+Removed Microsoft.ApplicationCompatibilityEnhancements successfully.
+Removing bloatware app: Microsoft.AV1VideoExtension
+Removed Microsoft.AV1VideoExtension successfully.
+Removing bloatware app: Microsoft.AVCEncoderVideoExtension
+Removed Microsoft.AVCEncoderVideoExtension successfully.
+Removing bloatware app: Microsoft.BingNews
+Removed Microsoft.BingNews successfully.
+Removing bloatware app: Microsoft.BingSearch
+Removed Microsoft.BingSearch successfully.
+Removing bloatware app: Microsoft.BingWeather
+Removed Microsoft.BingWeather successfully.
+Keeping app: Microsoft.DesktopAppInstaller
+Removing bloatware app: Microsoft.GamingApp
+Removed Microsoft.GamingApp successfully.
+Removing bloatware app: Microsoft.GetHelp
+Removed Microsoft.GetHelp successfully.
+Removing bloatware app: Microsoft.HEIFImageExtension
+Removed Microsoft.HEIFImageExtension successfully.
+Removing bloatware app: Microsoft.HEVCVideoExtension
+Removed Microsoft.HEVCVideoExtension successfully.
+Removing bloatware app: Microsoft.MicrosoftOfficeHub
+Removed Microsoft.MicrosoftOfficeHub successfully.
+Removing bloatware app: Microsoft.MicrosoftSolitaireCollection
+Removed Microsoft.MicrosoftSolitaireCollection successfully.
+Removing bloatware app: Microsoft.MicrosoftStickyNotes
+Removed Microsoft.MicrosoftStickyNotes successfully.
+Removing bloatware app: Microsoft.MPEG2VideoExtension
+Removed Microsoft.MPEG2VideoExtension successfully.
+Removing bloatware app: Microsoft.OutlookForWindows
+Removed Microsoft.OutlookForWindows successfully.
+Removing bloatware app: Microsoft.Paint
+Removed Microsoft.Paint successfully.
+Removing bloatware app: Microsoft.PowerAutomateDesktop
+Removed Microsoft.PowerAutomateDesktop successfully.
+Removing bloatware app: Microsoft.RawImageExtension
+Removed Microsoft.RawImageExtension successfully.
+Keeping app: Microsoft.ScreenSketch
+Removing bloatware app: Microsoft.SecHealthUI
+PS>TerminatingError(Remove-AppxPackage): "The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.SecHealthUI_1000.26100.1.0_x64__8wekyb3d8bbwe from: C:\Program Files\WindowsApps\Microsoft.SecHealthUI_1000.26100.1.0_x64__8wekyb3d8bbwe failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app."
+WARNING: Failed to remove Microsoft.SecHealthUI: The request is not supported.
+
+error 0x80070032: AppX Deployment Remove operation on package Microsoft.SecHealthUI_1000.26100.1.0_x64__8wekyb3d8bbwe from: C:\Program Files\WindowsApps\Microsoft.SecHealthUI_1000.26100.1.0_x64__8wekyb3d8bbwe failed. This app is part of Windows and cannot be uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows Features on or off. However, it may not be possible to uninstall the app.
+Keeping app: Microsoft.StorePurchaseApp
+Removing bloatware app: Microsoft.Todos
+Removed Microsoft.Todos successfully.
+Removing bloatware app: Microsoft.VP9VideoExtensions
+Removed Microsoft.VP9VideoExtensions successfully.
+Removing bloatware app: Microsoft.WebMediaExtensions
+Removed Microsoft.WebMediaExtensions successfully.
+Removing bloatware app: Microsoft.WebpImageExtension
+Removed Microsoft.WebpImageExtension successfully.
+Removing bloatware app: Microsoft.Windows.DevHome
+Removed Microsoft.Windows.DevHome successfully.
+Keeping app: Microsoft.Windows.Photos
+Removing bloatware app: Microsoft.WindowsAlarms
+Removed Microsoft.WindowsAlarms successfully.
+Keeping app: Microsoft.WindowsCalculator
+Removing bloatware app: Microsoft.WindowsCamera
+Removed Microsoft.WindowsCamera successfully.
+Removing bloatware app: Microsoft.WindowsFeedbackHub
+Removed Microsoft.WindowsFeedbackHub successfully.
+Keeping app: Microsoft.WindowsNotepad
+Removing bloatware app: Microsoft.WindowsSoundRecorder
+Removed Microsoft.WindowsSoundRecorder successfully.
+Keeping app: Microsoft.WindowsStore
+Removing bloatware app: Microsoft.WindowsTerminal
+Removed Microsoft.WindowsTerminal successfully.
+Removing bloatware app: Microsoft.Xbox.TCUI
+Removed Microsoft.Xbox.TCUI successfully.
+Removing bloatware app: Microsoft.XboxGamingOverlay
+Removed Microsoft.XboxGamingOverlay successfully.
+Removing bloatware app: Microsoft.XboxIdentityProvider
+Removed Microsoft.XboxIdentityProvider successfully.
+Removing bloatware app: Microsoft.XboxSpeechToTextOverlay
+Removed Microsoft.XboxSpeechToTextOverlay successfully.
+Removing bloatware app: Microsoft.YourPhone
+Removed Microsoft.YourPhone successfully.
+Removing bloatware app: Microsoft.ZuneMusic
+Removed Microsoft.ZuneMusic successfully.
+Removing bloatware app: MicrosoftCorporationII.MicrosoftFamily
+Removed MicrosoftCorporationII.MicrosoftFamily successfully.
+Removing bloatware app: MicrosoftCorporationII.QuickAssist
+Removed MicrosoftCorporationII.QuickAssist successfully.
+Removing bloatware app: MicrosoftWindows.Client.WebExperience
+Removed MicrosoftWindows.Client.WebExperience successfully.
+Removing bloatware app: MicrosoftWindows.CrossDevice
+Removed MicrosoftWindows.CrossDevice successfully.
+Removing bloatware app: MSTeams
+Removed MSTeams successfully.
+Removing bloatware app: Microsoft.Copilot
+Removed Microsoft.Copilot successfully.
+Removing provisioned app packages (pre-installed apps for new users)...
+Cleaning leftover app data and cache folders...
+Cleaning C:\Users\Admin\AppData\Local\Packages\*
+Cleaning C:\Users\Admin\AppData\Local\Microsoft\Windows\INetCache\*
+Cleaning C:\Users\Admin\AppData\Local\Microsoft\Windows\WebCache\*
+Cleaning C:\ProgramData\Microsoft\Windows\Start Menu\Programs\*.lnk
+Disabling Windows Telemetry and Data Collection...
+Telemetry and Cortana disabled.
+Configuring Windows Update settings...
+Disabling all Windows Updates...
+New-ItemProperty : Cannot find path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU' because it does not 
+exist.
+At C:\Users\Admin\Downloads\SwiftOS\SwiftOS_ModKit.ps1:195 char:13
++             New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HKLM:\SOFTWARE\...indowsUpdate\AU:String) [New-ItemProperty], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.NewItemPropertyCommand
+New-ItemProperty : Cannot find path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU' because it does not
+exist.
+At C:\Users\Admin\Downloads\SwiftOS\SwiftOS_ModKit.ps1:195 char:13
++             New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HKLM:\SOFTWARE\...indowsUpdate\AU:String) [New-ItemProperty], ItemNotFo
+   undException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.NewItemPropertyCommand
+
+All Windows Updates disabled.
+No lock screen wallpaper found at .\Config\LockScreen.jpg
+No custom theme file found at .\Config\Custom.theme
+Skipping Browser installation.
+Choose your Media Player:
+1) MPV Player
+2) VLC Media Player
+Index operation failed; the array index evaluated to null.
+At C:\Users\Admin\Downloads\SwiftOS\SwiftOS_ModKit.ps1:360 char:13
++             $app = $options[$chosenKey]
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : NullArrayIndex
+Index operation failed; the array index evaluated to null.
+At C:\Users\Admin\Downloads\SwiftOS\SwiftOS_ModKit.ps1:360 char:13
++             $app = $options[$chosenKey]
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : NullArrayIndex
+
+WARNING: Installation failed for .
+Choose your Utilities:
+1) 7-Zip
+2) Git
+Index operation failed; the array index evaluated to null.
+At C:\Users\Admin\Downloads\SwiftOS\SwiftOS_ModKit.ps1:360 char:13
++             $app = $options[$chosenKey]
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : NullArrayIndex
+Index operation failed; the array index evaluated to null.
+At C:\Users\Admin\Downloads\SwiftOS\SwiftOS_ModKit.ps1:360 char:13
++             $app = $options[$chosenKey]
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : NullArrayIndex
+
+WARNING: Installation failed for .
+Choose your Code Editor:
+1) Notepad++
+2) Visual Studio Code
+WARNING: Invalid selection. Skipping Code Editor installation.
+Choose your Communication:
+1) Zoom
+2) Microsoft Teams
+3) Discord
+Index operation failed; the array index evaluated to null.
+At C:\Users\Admin\Downloads\SwiftOS\SwiftOS_ModKit.ps1:360 char:13
++             $app = $options[$chosenKey]
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : NullArrayIndex
+Index operation failed; the array index evaluated to null.
+At C:\Users\Admin\Downloads\SwiftOS\SwiftOS_ModKit.ps1:360 char:13
++             $app = $options[$chosenKey]
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : NullArrayIndex
+
+WARNING: Installation failed for .
+**********************
+Windows PowerShell transcript end
+End time: 20250605065111
+**********************
