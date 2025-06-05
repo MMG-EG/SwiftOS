@@ -16,10 +16,14 @@ It allows both standard users and administrators to apply targeted tweaks for im
 - **Operating System:** Windows 11 (21H2 or later recommended)  
 - **PowerShell:** Version 5.1+ (PowerShell 7 supported)  
 - **Execution Policy:** Must allow script execution (`RemoteSigned` or less restrictive)  
-- **System Protection:** System Restore **must be enabled**  
+- **System Protection:** System Restore **must be enabled**
+- **User Context:**
+  * The launcher script must NOT be run with elevated privileges (Do not run as Administrator).
+  * The launcher must be run as the currently logged-in user (no “Run As Different User”).
+  * When running over Remote Desktop (RDP), user-level tweaks will be skipped because user context can be ambiguous. Only admin-level tweaks will run elevated.
 - **User Privileges:**  
-  - ✅ **User-level tweaks** → Run as a **standard user**  
-  - 🔐 **Admin-level tweaks** → UAC prompt will request **administrator access**
+  * ✅ **User-level tweaks** → Run as a **standard user**  
+  * 🔐 **Admin-level tweaks** → UAC prompt will request **administrator access**
 
 > ⚠️ Make sure these requirements are met for smooth and safe operation.
 
