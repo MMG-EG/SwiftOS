@@ -1,14 +1,18 @@
 # Prevent running launcher as another user (via elevation or RunAs / different user)
-
 $currentProcessUser = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
 $interactiveSessionUser = (Get-CimInstance -ClassName Win32_ComputerSystem).UserName
 
 if ($currentProcessUser -ne $interactiveSessionUser) {
-    Write-Warning "This script must be run as the *logged-in* user only. Do not use 'Run as Administrator' or 'Run as different user'."
+    Write-Warning "This script must be run as the *logged-in* user only."
     exit
 }
 
-# Welcome message and pause
+# Function to detect if running in RDP session
+function Test-IsRDP {
+    $sessionName = (Get-Process -Id $PID).SessionName
+    return $sessionName -like "RDP*"
+}
+
 Write-Host "Welcome to SwiftOS Setup!"
 Start-Sleep -Seconds 2
 
@@ -16,17 +20,23 @@ Start-Sleep -Seconds 2
 $userScript = Join-Path -Path $PSScriptRoot -ChildPath "Config\UserTweaks.ps1"
 $adminScript = Join-Path -Path $PSScriptRoot -ChildPath "Config\AdminTweaks.ps1"
 
-# Execute the user-level tweaks script synchronously
-Write-Host "Executing user-level tweaks... After it finishes, please close the script."
-& $userScript
+if (Test-IsRDP) {
+    Write-Warning "RDP session detected. Skipping user-level tweaks."
+    Write-Host "Launching admin-level tweaks with elevation... After it finishes, please close the script."
+    $process = Start-Process -FilePath "powershell.exe" `
+        -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$adminScript`"" `
+        -Verb RunAs -PassThru
+    $process.WaitForExit()
+} else {
+    Write-Host "Executing user-level tweaks... After it finishes, please close the script."
+    & $userScript
 
-# Launch the admin-level tweaks script elevated and wait for completion
-Write-Host "Launching admin-level tweaks with elevation... After it finishes, please close the script."
-$process = Start-Process -FilePath "powershell.exe" `
-    -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$adminScript`"" `
-    -Verb RunAs -PassThru
-
-$process.WaitForExit()
+    Write-Host "Launching admin-level tweaks with elevation... After it finishes, please close the script."
+    $process = Start-Process -FilePath "powershell.exe" `
+        -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$adminScript`"" `
+        -Verb RunAs -PassThru
+    $process.WaitForExit()
+}
 
 Write-Host "All tweaks completed successfully."
 
