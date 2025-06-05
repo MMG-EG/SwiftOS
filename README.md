@@ -71,6 +71,9 @@ It allows both standard users and administrators to apply targeted tweaks for im
 `.\SwiftOS_Setup.ps1`
 
 Follow the prompts in the terminal to apply customizations.
+* If you encounter execution policy errors, you may need to temporarily allow script execution by running:
+
+`Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
 
 ## 📄 License
 MIT License © 2025 Mazen Gohar
