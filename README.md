@@ -1,103 +1,79 @@
-<p align="center">
-  <strong style="font-size: 2.5em;">SwiftOS Mod Kit</strong>
-</p>
+# **SwiftOS Mod Kit**
+
+## 🧭 Overview
+
+**SwiftOS** is a comprehensive Windows 11 customization and optimization toolkit designed to give users full control over system settings, privacy, and appearance.  
+It allows both standard users and administrators to apply targeted tweaks for improved performance, privacy, and personalization.
 
 ---
 
-## Overview
+## ✅ Requirements
 
-**SwiftOS** is a comprehensive Windows 11 customization and optimization toolkit designed to empower users with fine-grained control over system settings, privacy configurations, and visual customization.  
-It enables both standard users and system administrators to apply targeted tweaks efficiently, ensuring optimal performance, enhanced privacy, and a personalized user experience.
-
----
-
-## Requirements
-
-- **Operating System:** Windows 11 (Version 21H2 or later recommended)  
-- **PowerShell:** Version 5.1 or newer (PowerShell 7+ supported but not required)  
+- **Operating System:** Windows 11 (21H2 or later recommended)  
+- **PowerShell:** Version 5.1+ (PowerShell 7 supported)  
 - **Execution Policy:** Must allow script execution (`RemoteSigned` or less restrictive)  
-- **System Protection:** System Restore must be enabled for creating restore points during admin tweaks  
+- **System Protection:** System Restore **must be enabled**  
 - **User Privileges:**  
-  - User-level tweaks require **standard user** privileges  
-  - Admin-level tweaks require **administrative** privileges (UAC prompt)
+  - ✅ **User-level tweaks** → Run as a **standard user**  
+  - 🔐 **Admin-level tweaks** → UAC prompt will request **administrator access**
 
-> **Note:** Ensure your environment meets these criteria for smooth and safe operation.
+> ⚠️ Make sure these requirements are met for smooth and safe operation.
 
 ---
 
-## Features
+## ✨ Features
 
-### User-Level Tweaks
-Modify Windows user-specific settings such as:
-
+### 🧑‍💻 User-Level Tweaks
 - Show/hide file extensions and hidden files  
-- Disable Bing integration in Start Menu Search  
+- Disable Bing in Start Menu Search  
 - Disable taskbar transparency  
-- Apply visual tweaks optimized for low-end hardware  
-- Set branded desktop and lock screen wallpapers
+- Apply low-end performance visual tweaks  
+- Set branded desktop and lock screen wallpapers  
 
-### Admin-Level Tweaks
-Require elevation to modify system-wide settings including:
+### 🛠️ Admin-Level Tweaks
+- Configure Windows Update policies  
+- Remove bloatware and provisioned apps  
+- Create a system restore point  
+- Disable telemetry and Cortana  
+- Apply high-performance power plans  
 
-- Windows Update configuration  
-- Removal of bloatware apps and provisioned packages  
-- Creation of system restore points  
-- Disabling Windows telemetry and Cortana  
-- Setting high-performance power plans
-
-### Additional Highlights
-
-- **Safe Elevation Management:**  
-  User and admin tweaks are separated to ensure changes to `HKCU` run under the correct user context and admin tweaks run elevated to modify machine settings.
-
-- **Logging and Error Handling:**  
-  Activities are logged using PowerShell transcripts for auditability and troubleshooting.
-
-- **Wallpaper Configuration:**  
-  User wallpapers and lock screen images are stored in the `Config` folder and applied by user-level scripts to preserve personalization independently of admin tweaks.
+### 🧠 Additional Highlights
+- **Safe Elevation Management**  
+  Ensures proper context by separating user and admin tweaks  
+- **Logging & Error Handling**  
+  PowerShell transcripts record all actions  
+- **Wallpaper Configuration**  
+  Wallpapers stored in `Config/` are auto-applied by user script  
 
 ---
 
-## Architecture and Implementation Details
+## 🚀 Usage
 
-### Script Structure
-
-SwiftOS_Mod_Kit/
-├── LaunchTweaks.ps1 # Main launcher script
-├── Config/
-│ ├── UserTweaks.ps1 # User-level tweaks (runs without elevation)
-│ └── AdminTweaks.ps1 # Admin-level tweaks (runs elevated)
-│ └── wallpaper.jpg # Desktop wallpaper image
-│ └── lswallpaper.jpg # Lock screen wallpaper image
-
-yaml
-Copy
-Edit
-
-- `LaunchTweaks.ps1` runs `UserTweaks.ps1` first, then elevates and runs `AdminTweaks.ps1`.
-- Separation ensures user registry (`HKCU`) tweaks run correctly without elevation.
-- Admin tweaks modify system-wide settings, requiring UAC elevation.
-
----
-
-## Usage
-
-1. Clone or download the repository to your Windows 11 machine:
+### 1. Clone the repository to your Windows 11 machine:
 
 git clone https://github.com/MMG-EG/SwiftOS.git
 
-2. Open PowerShell as a standard user (do not run as administrator).
+### 2. Open PowerShell as a standard user
+**⚠️ Do NOT run as Administrator**
 
-3. Navigate to the script directory and run the launcher:
+### 3. Navigate to the script folder and run the launcher:
 
-cd path\to\SwiftOS_Mod_Kit
-.\SwiftOS_Setup.ps1
-Follow the instructions/prompts.
+`cd path\to\SwiftOS`
 
-## License
+`.\SwiftOS_Setup.ps1`
+
+Follow the prompts in the terminal to apply customizations.
+
+## 📄 License
 MIT License © 2025 Mazen Gohar
 
-## Support / Contact
-For help or feedback, open an issue on GitHub or contact mizoiology (at) gmail.com
+## 📬 Support / Contact
+For help, suggestions, or bug reports:
+
+**📨 Email: mizoiology (at) gmail.com**
+
+**🐛 Open an Issue on GitHub**
+
+---
 
 Made with ❤️ for Windows 11 enthusiasts
