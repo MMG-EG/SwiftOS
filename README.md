@@ -59,7 +59,7 @@ It allows both standard users and administrators to apply targeted tweaks for im
 
 ### 1. Clone the repository to your Windows 11 machine:
 
-git clone https://github.com/MMG-EG/SwiftOS.git
+`git clone https://github.com/MMG-EG/SwiftOS.git`
 
 ### 2. Open PowerShell as a standard user
 **⚠️ Do NOT run as Administrator**
