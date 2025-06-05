@@ -1,3 +1,4 @@
+![SwiftOS Logo](Config/SwiftOSLogo.png)
 # **SwiftOS Mod Kit**
 
 ## 🧭 Overview
