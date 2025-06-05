@@ -2,7 +2,7 @@
   <img src="Config/SwiftOSLogo.png" alt="SwiftOS Logo" width="320" />
 </p>
 
-# **SwiftOS Mod Kit**
+<h1 align="center">SwiftOS</h1>
 
 ## 🧭 Overview
 
