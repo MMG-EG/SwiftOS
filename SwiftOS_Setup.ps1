@@ -1,14 +1,10 @@
-# ./LaunchTweaks.ps1
+# Prevent running launcher as another user (via elevation or RunAs / different user)
 
-# Function to check if running as admin
-function Test-IsAdmin {
-    $currentUser = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
-    return $currentUser.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
-}
+$currentProcessUser = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
+$interactiveSessionUser = (Get-CimInstance -ClassName Win32_ComputerSystem).UserName
 
-# Prevent running launcher itself as admin
-if (Test-IsAdmin) {
-    Write-Warning "Do NOT run this launcher as Administrator. Please run it as a regular user."
+if ($currentProcessUser -ne $interactiveSessionUser) {
+    Write-Warning "This script must be run as the *logged-in* user only. Do not use 'Run as Administrator' or 'Run as different user'."
     exit
 }
 
