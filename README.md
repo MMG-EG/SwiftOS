@@ -1,4 +1,7 @@
-![SwiftOS Logo](Config/SwiftOSLogo.png)
+<p align="center">
+  <img src="config/SwiftOSLogo.png" alt="SwiftOS Logo" width="320" />
+</p>
+
 # **SwiftOS Mod Kit**
 
 ## 🧭 Overview
